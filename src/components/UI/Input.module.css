@@ -9,6 +9,10 @@
   margin-right: 1rem;
 }
 
+.input input.discount-code {
+  width: 120px !important;
+}
+
 .input input {
   width: 3rem;
   border-radius: 5px;

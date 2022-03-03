@@ -1,9 +1,11 @@
 import classes from "./Header.module.css";
-import React from "react";
+import React, { useContext } from "react";
 import mealImg from "./../../assets/meals.jpg";
 import HeaderCartButton from "./HeaderCartButton";
+import { CartContext } from "./../store/cart-context";
 
 const Header = (props) => {
+  const cartCtx = useContext(CartContext);
   return (
     <React.Fragment>
       <header className={classes.header}>

@@ -44,3 +44,11 @@
   background-color: #8a2b06;
   color: white;
 }
+
+.actions button.apply-code {
+  background-color: #28da9e;
+  border-color: #178a64;
+  float: left !important;
+  margin-left: -5px;
+  color: white;
+}
